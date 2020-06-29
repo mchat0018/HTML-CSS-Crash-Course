@@ -1,0 +1,51 @@
+/* CSS StyleSheet */
+
+h1{
+    text-align: center ;
+    text-decoration: underline;
+    background-color: darkcyan;
+    color: crimson;
+    font-family: cursive; 
+}
+
+hr{
+    border-width: 3px;
+    border-color: brown;
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: slateblue;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+    column-count: 2;
+}
+
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: darkmagenta;
+}
+
+ul{
+    border-bottom: 6px solid red;
+    border-left:10px dashed red;
+    padding: 25px;
+}
+
+li{
+    list-style-type: square;
+    font-size: 20px;
+    text-shadow: 1px 1px slategray;
+}
+
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
