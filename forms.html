@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HTML FORMS - Dummy Site </title>
+    </head>
+    <body>
+        <h1> HTML FORMS </h1>
+        <form>
+            <label for="username"> Enter Username </label>
+            <input type="text" id="username" name="username" placeholder="your username..." required>
+            <br><br>
+            <label for="email"> Enter email </label>
+            <input type="email" id="email" name="email" placeholder="your email..." required>
+            <br><br>
+            <label for="password"> Enter password </label>
+            <input type="password" id="password" name="password" placeholder="your password..."  required> 
+            <br><br>
+            <p> Select your age range </p>
+            <input type="radio" id="option1" name="age" value="0-25">
+            <label for="option1">0-25</label>
+            <input type="radio" id="option2" name="age" value="26-50">
+            <label for="option2">26-50</label>
+            <input type="radio" id="option3" name="age" value="51+">
+            <label for="option3">51+</label>
+            <br><br>
+            <label for="SecQuestion">Security Questions</label>
+            <select name="SecQuestion" id="SecQuestion">
+                <option value="q1"> Your favouite brand of underwear </option>
+                <option value="q2"> Your favourite shade of green </option>
+                <option value="q3"> If you were to be an animal, what would you be? </option>
+            </select>
+            <br>
+            <label for="answer"> Answer the above chosen question </label>
+            <input type="text" id="answer" name="answer" placeholder="Security Question Answer" required>
+            <br><br>
+            <label for="bio"> Your bio </label>
+            <br>
+            <textarea name="bio" id="bio" cols="50" rows="15" placeholder="about you..."></textarea>
+            <br><br>
+            <input type="submit" name="submit" id="submit" value="Submit Form">
+        </form>
+    </body>
+</html>
